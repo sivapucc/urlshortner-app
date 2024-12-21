@@ -1,4 +1,5 @@
-import { reportWebVitals } from "web-vitals";
+import reportWebVitals from "./reportWebVitals";
+
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
