@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("https://wallpaperbat.com/img/29992816-a-simple-dark-wallpaper.png");
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.table {
+  width: 90%;
+}
+
+.table tbody tr td {
+  text-wrap: wrap;
+  text-overflow: ellipsis;
+  max-width: 4rem;
+}
+.warning-alert {
+  position: fixed;
+  z-index: 1;
+}
