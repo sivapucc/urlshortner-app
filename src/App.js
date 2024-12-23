@@ -1,7 +1,7 @@
 import UrlshortnerApp from "./components/shorturl.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import Button from "react-bootstrap/Button";
 import Tooltip from "react-bootstrap/Tooltip";
