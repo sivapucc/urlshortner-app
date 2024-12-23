@@ -20,20 +20,12 @@ function App() {
   );
 
   function handleLogout() {
-    window.location.href("https://user-login-appsk.netlify.app/");
+    window.location.href = "https://user-login-appsk.netlify.app/";
   }
 
   const [searchParams] = useSearchParams();
   const token = searchParams.get("token");
   const name = searchParams.get("name");
-  useEffect(() => {
-    if (token) {
-      console.log("Token:", token);
-      // Handle the token here
-    } else {
-      console.log("No token found in the URL");
-    }
-  }, [token]);
 
   return (
     <div className="App">
@@ -53,7 +45,7 @@ function App() {
 
         <Offcanvas show={show} onHide={handleClose} placement="end">
           <Offcanvas.Header closeButton>
-            <Offcanvas.Title>Welcome {name}</Offcanvas.Title>
+            <Offcanvas.Title>Welcome {name ? name : ""}</Offcanvas.Title>
             <div>{token}</div>
           </Offcanvas.Header>
           <Offcanvas.Body>
