@@ -24,3 +24,20 @@
   position: fixed;
   z-index: 1;
 }
+
+.user-button {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  z-index: 1;
+  position: absolute;
+  background-image: url("https://www.freeiconspng.com/thumbs/login-icon/user-login-icon-14.png");
+  background-size: contain;
+  top: 5px;
+  right: 6rem;
+}
+.htitle-text {
+  font-size: 4rem;
+  font-weight: bold;
+  text-shadow: 2px 2px blue;
+}
