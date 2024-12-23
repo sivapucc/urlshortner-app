@@ -46,7 +46,6 @@ function App() {
         <Offcanvas show={show} onHide={handleClose} placement="end">
           <Offcanvas.Header closeButton>
             <Offcanvas.Title>Welcome {name ? name : ""}</Offcanvas.Title>
-            <div>{token}</div>
           </Offcanvas.Header>
           <Offcanvas.Body>
             <div>
